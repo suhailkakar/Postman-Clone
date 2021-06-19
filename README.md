@@ -16,3 +16,15 @@
 
 ### Deployed In
 * [Netlify](https://netlify.com/)
+
+📦  Postman-Clone-main
+├── assets
+│   └── images
+│       └── logo.jpeg
+├── index.html
+├── Javascript
+│   ├── script.js
+│   └── setupEditor.js
+├── package.json
+├── package-lock.json
+└── README.md
