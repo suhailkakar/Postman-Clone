@@ -8,6 +8,32 @@
     <title>Postman Clone</title>
 </head>
 <body>
-    <div class="p-4"></div>
+    <div class="p-4">
+        <form>
+         <div class="input-group mb-4">
+             <select name="" id="" class="form-select flex-grow-0 w-auto">
+                <option value="GET" selected>GET</option>
+                <option value="POST">POST</option>
+                <option value="PUT">PUT</option>
+                <option value="PATCH">PATCH</option>
+                <option value="DELETE">DELETE</option>
+             </select>
+             <input required type="url" placeholder="https://example.com" class="form-control">
+             <button type=submit class="btn btn-primary">Send</button>
+            </div>
+        </form>
+
+        <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button role="tab" aria-controls="query-params" aria-selected="true" type="button" class="nav-link active" id="query-params-tab" data-bs-toogle="tab" data-bs-target="#query-params">Query Params</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button role="tab" aria-controls="request-header-params" aria-selected="false" type="button" class="nav-link" id="request-header-tab" data-bs-toogle="tab" data-bs-target="#request-header">Headers</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button role="tab" aria-controls="json-params" aria-selected="false" type="button" class="nav-link" id="json-tab" data-bs-toogle="tab" data-bs-target="#json-params">Query Params</button>
+            </li>
+        </ul>
+    </div>
 </body>
 </html>
