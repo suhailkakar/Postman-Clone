@@ -12,3 +12,7 @@
 ### Built With
 * [JavaScript ](https://en.wikipedia.org/wiki/JavaScript)
 * [Bootstrap](https://getbootstrap.com/)
+
+
+### Deployed In
+* [Netlify](https://netlify.com/)
