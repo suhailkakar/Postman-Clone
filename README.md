@@ -17,7 +17,8 @@
 ### Deployed In
 * [Netlify](https://netlify.com/)
 
-📦  Postman-Clone-main
+
+
 ├── assets
 │   └── images
 │       └── logo.jpeg
@@ -28,3 +29,4 @@
 ├── package.json
 ├── package-lock.json
 └── README.md
+
